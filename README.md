@@ -1,1 +1,22 @@
-# Financial-sentiment-analysis-with-Gemini-
+## Introduction
+Code for financial sentiment analysis using Germini
+
+
+## Dependencies
+- numpy==1.26.3  
+- datasets==3.0.2
+- google-genai==1.1.0
+- scikit-learn==1.5.1
+
+## Usage
+##### 1. Install dependencies
+```
+conda create --name FSA -y python=3.9
+conda activate FSA
+pip install numpy==1.26.3 datasets==3.0.2 google-genai==1.1.0 scikit-learn==1.5.1
+```
+##### 2. Run code
+Example: run GraphTOP on PubMed with LP-GraphPrompt as the pre-training task
+```
+python run_FSA.py --dataset_name=PubMed
+```
