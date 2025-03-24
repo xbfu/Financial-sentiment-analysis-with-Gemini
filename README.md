@@ -16,7 +16,6 @@ conda activate FSA
 pip install numpy==1.26.3 datasets==3.0.2 google-genai==1.1.0 scikit-learn==1.5.1
 ```
 ##### 2. Run code
-Example: run GraphTOP on PubMed with LP-GraphPrompt as the pre-training task
 ```
-python run_FSA.py --dataset_name=PubMed
+python run_FSA.py --model_name=gemini-1.5-flash --dataset_name=fiqa
 ```
